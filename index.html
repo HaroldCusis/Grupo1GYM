@@ -1,0 +1,68 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio FITZONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Bienvenido a FITZONE</h1>
+        <div class="inicio">
+            <h3>Administra tus miembros y clases facilmente</h3>
+            <div>Fecha: <span id="fecha"></span></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="panel">
+            <h2>Registrar Nuevo Miembro</h2>
+            <div class="input-group">
+                <input type="text" id="nombreMiembro" placeholder="Nombre del miembro">
+                <input type="text" id="tipoMembresia" placeholder="Tipo de membresia">
+                <button onclick="agregarMiembro()"> + Agregar</button>
+            </div>
+            <div id="listaMiembros"></div>
+
+
+            <div class="card">
+                <span class="nombre">Juan Perez</span>
+                <span class="membresia"> - Mensual</span>
+                <div class="actions">
+
+                    <button title="Editar">📝</button>
+                    <button title="Eliminar">🧺</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="panel">
+            <h2>Programar Nueva Clase</h2>
+            <div class="input-group">
+                <input type="text" id="nombreClase" placeholder="Nombre del clase">
+                <input type="text" id="nombreInstructura" placeholder="Instructora">
+                <button onclick="agregarClase()"> + Agregar</button>
+            </div>
+            <div id="listaClases"></div>
+
+
+            <div class="card">
+                <span class="clase">Yoga</span>
+                <span class="instructora"> con Ana Ruiz</span>
+                <span class="estado"> Terminado</span>
+                <div class="actions">
+                    <button title="Editar">📝</button>
+                    <button title="Eliminar">🧺</button>
+                    <button title="Cambiar Estado">💱</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

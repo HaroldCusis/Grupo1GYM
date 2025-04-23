@@ -1,0 +1,164 @@
+body {
+    background-color: #294F93;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.inicio {
+    font-size: 12.5px;
+    color: #7686a2;
+}
+
+
+
+.fecha {
+    color: #B1B6C0;
+}body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #2d3436;
+}
+header {
+    background-color: #294F93;
+    color: white;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.panel {
+    background-color: #3c598c;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+h2 {
+    margin-top: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #b2bec3;
+    border-radius: 6px;
+    font-size: 1em;
+}
+button {
+    background-color: #0984e3;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #74b9ff;
+}
+.card {
+    background-color: #5e7aac;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions button {
+    background-color: transparent;
+    color: #0984e3;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.actions button:hover {
+    color: #2d3436;
+}
+@media (max-width: 768px) {
+    .input-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+.registrarNuevoMiembro {
+    	background-color: #3C598B;
+}
+
+.nombre {
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.nuevoMiembro {
+display: grid;
+grid-template-columns: 1fr 1fr auto;
+gap: 10px;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #b2bec3;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+.titulo1 {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #00d2ff;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #74b9ff;
+}
+
+.card {
+    background-color: #5e7aac;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+.actions button {
+    background-color: transparent;
+    color: #0e3b5e;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.actions button:hover {
+    color: #2d3436;
+}
